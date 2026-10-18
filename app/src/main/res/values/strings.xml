@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vigil</string>
+    <string name="back">Back</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="next">Next</string>
+    <string name="delete">Delete</string>
+    <string name="new_vow">New vow</string>
+    <string name="minutes_short">%d min</string>
+
+    <string name="tab_vows">Vows</string>
+    <string name="tab_catalog">Catalog</string>
+    <string name="tab_chronicle">Chronicle</string>
+    <string name="tab_settings">Rule</string>
+
+    <!-- Categories, types, rigor -->
+    <string name="cat_body">Body</string>
+    <string name="cat_digital">Digital</string>
+    <string name="cat_speech">Speech</string>
+    <string name="cat_money">Money</string>
+    <string name="cat_mind">Mind</string>
+    <string name="cat_heart">Heart</string>
+    <string name="cat_spirit">Spirit</string>
+
+    <string name="type_abstain">Abstain</string>
+    <string name="type_practice">Practice</string>
+    <string name="type_limit">Measure</string>
+    <string name="type_window">Hours</string>
+    <string name="type_abstain_hint">Not once, for the whole vow.</string>
+    <string name="type_practice_hint">Every day; each day is ticked off.</string>
+    <string name="type_limit_hint">No more than so much a day.</string>
+    <string name="type_window_hint">Not between two hours of the day.</string>
+    <string name="rule_abstain">Not once</string>
+    <string name="rule_practice">Every day</string>
+    <string name="rule_limit">No more than %1$d %2$s a day</string>
+    <string name="rule_window">Not from %1$s to %2$s</string>
+    <string name="unit_default">times</string>
+
+    <string name="rigor_novice">Novice</string>
+    <string name="rigor_monk">Monk</string>
+    <string name="rigor_hermit">Hermit</string>
+    <string name="rigor_novice_hint">Gentle: one lapse in ten days is forgiven, and a broken day costs one more day.</string>
+    <string name="rigor_monk_hint">The usual way: a lapse costs three more days or a crack in the seal.</string>
+    <string name="rigor_hermit_hint">Stern: there is no mending. A broken vow burns, and you begin again.</string>
+
+    <!-- The ladder -->
+    <string name="step_wait">The candle of waiting</string>
+    <string name="step_voice">Your voice</string>
+    <string name="step_letter">A letter</string>
+    <string name="step_questions">Three questions</string>
+    <string name="step_ransom">Ransom</string>
+    <string name="step_witness">A witness</string>
+    <string name="step_tithe">A tithe</string>
+    <string name="step_tomorrow">Sleep on it</string>
+    <string name="step_wait_hint">A candle burns down before you can go on. Most cravings pass in these minutes.</string>
+    <string name="step_voice_hint">Your own reason, in your own voice, played to the end.</string>
+    <string name="step_letter_hint">Write down why you are breaking it. The letter stays in the chronicle.</string>
+    <string name="step_questions_hint">Answer honestly, if only for yourself.</string>
+    <string name="step_ransom_hint">An act that buys the vow back: do it, and the vow stands.</string>
+    <string name="step_witness_hint">Someone you chose is told. You can\'t break it quietly.</string>
+    <string name="step_tithe_hint">What you pledged becomes a debt in the chronicle.</string>
+    <string name="step_tomorrow_hint">Breaking is allowed only tomorrow, from an hour chosen in advance.</string>
+
+    <!-- Outcomes -->
+    <string name="outcome_indulgence">Indulgence</string>
+    <string name="outcome_penance">Penance</string>
+    <string name="outcome_crack">A crack</string>
+    <string name="outcome_burn">Burn it</string>
+    <plurals name="outcome_indulgence_hint">
+        <item quantity="one">Forgiven. %d indulgence left for now.</item>
+        <item quantity="other">Forgiven. %d indulgences left for now.</item>
+    </plurals>
+    <plurals name="outcome_penance_hint">
+        <item quantity="one">The vow goes on, %d day longer.</item>
+        <item quantity="other">The vow goes on, %d days longer.</item>
+    </plurals>
+    <string name="outcome_crack_hint">The vow goes on, but the seal cracks, and the crack stays for good.</string>
+    <string name="outcome_burn_hint">The scroll burns and goes to the chronicle unfinished.</string>
+    <string name="outcome_burn_hermit_hint">A hermit\'s vow can\'t be mended: it burns. You may begin it again at once.</string>
+    <string name="outcome_title">What becomes of the vow?</string>
+    <string name="outcome_text">You broke it. That happens. Choose honestly what follows.</string>
+    <string name="outcome_hermit_text">This was a hermit\'s vow. There is only one way.</string>
+    <string name="outcome_apply">So be it</string>
+    <string name="outcome_burn_confirm_title">Burn the vow?</string>
+    <string name="outcome_burn_confirm_text">«%s» will go to the chronicle unfinished. This can\'t be undone.</string>
+
+    <!-- Triggers -->
+    <string name="trigger_boredom">Boredom</string>
+    <string name="trigger_fatigue">Tiredness</string>
+    <string name="trigger_stress">Stress</string>
+    <string name="trigger_company">Company</string>
+    <string name="trigger_evening">Evening</string>
+    <string name="trigger_habit">Habit</string>
+    <string name="trigger_sadness">Sadness</string>
+    <string name="trigger_joy">Celebration</string>
+
+    <!-- Days and lengths -->
+    <string name="day_of">day %1$d of %2$d</string>
+    <string name="day_n">day %d</string>
+    <plurals name="days">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+    <string name="length_open">No end</string>
+    <string name="length_note_open">Until you lay it down with honour.</string>
+    <string name="length_note_3">Three days: a trial run.</string>
+    <string name="length_note_7">A week: the shortest real vow.</string>
+    <string name="length_note_21">Twenty-one days: long enough for a habit to take root.</string>
+    <string name="length_note_40">Forty days: the length of a fast and a trial.</string>
+    <string name="length_note_49">Seven weeks of seven days.</string>
+    <string name="length_note_108">A hundred and eight: a whole round of the prayer rope.</string>
+    <string name="in_min">in %d min</string>
+    <string name="in_hours">in %1$d h %2$d min</string>
+    <plurals name="in_days">
+        <item quantity="one">in %d day</item>
+        <item quantity="other">in %d days</item>
+    </plurals>
+
+    <!-- The hard days -->
+    <string name="demon_eyebrow">Day %1$d · %2$s</string>
+    <string name="demon_3">Day three is usually the hardest: the body asks for the old way back. Hold on until evening.</string>
+    <string name="demon_7">A week. The first pride is past and the boredom comes. This is where vows are broken out of habit.</string>
+    <string name="demon_14">Two weeks. It seems you\'ve proved it all. That thought is the temptation.</string>
+    <string name="demon_21">Twenty-one days: what was hard is becoming a habit. Don\'t stop at the threshold.</string>
+    <string name="demon_30">A month. You are not who you were when you began.</string>
+    <string name="demon_40">Forty days: the length of a fast. Few get this far.</string>
+
+    <!-- Vows tab -->
+    <string name="vows_title">Your vows</string>
+    <string name="vows_title_named">%s\'s vows</string>
+    <string name="vows_waiting">Bound, waiting to begin</string>
+    <string name="vows_another">Take another vow</string>
+    <string name="vows_rule_of_three">The rule of three: no more than three vows at once. Finish one first.</string>
+    <string name="empty_title">Not a single vow yet</string>
+    <string name="empty_text">Choose what to give up or take on, for how long, and what stands between you and breaking it. Then seal it with wax.</string>
+    <string name="empty_catalog">Take your first vow</string>
+    <string name="empty_kept">Vows kept so far: %d</string>
+    <string name="practice_mark">Done today</string>
+    <string name="practice_done_today">Done today. Tap to undo.</string>
+    <string name="confess_eyebrow">An open day</string>
+    <string name="confess_yesterday">«%1$s»: did you do it yesterday?</string>
+    <string name="confess_day">«%1$s»: did you do it on day %2$d?</string>
+    <string name="confess_yes">Yes, I did</string>
+    <string name="confess_no">No</string>
+    <string name="delay_eyebrow">Morning has come</string>
+    <string name="delay_title">Do you still want to break «%s»?</string>
+    <string name="delay_text">You chose to sleep on it. The night is over. If the wish has passed, say so: it\'ll count as a temptation held.</string>
+    <string name="delay_hold">It passed</string>
+    <string name="delay_go">Still want to</string>
+    <string name="examen_eyebrow">The evening examen</string>
+    <string name="examen_title">How was the day?</string>
+    <string name="examen_kept">Kept it</string>
+    <string name="examen_hard">It was hard</string>
+    <string name="examen_broke">I broke it today…</string>
+    <string name="waiting_starts">Begins %s</string>
+
+    <!-- Make -->
+    <string name="make_title">The rule of a vow</string>
+    <string name="make_title_own">Your own vow</string>
+    <string name="make_what">The vow</string>
+    <string name="make_title_hint">What you vow, in a few words</string>
+    <string name="make_limit">How much a day</string>
+    <string name="make_unit_hint">Of what: cups, minutes…</string>
+    <string name="make_window_from">From</string>
+    <string name="make_window_to">To</string>
+    <string name="make_length">For how long</string>
+    <string name="make_length_custom">Your own</string>
+    <string name="make_days">Days</string>
+    <string name="make_start">When it begins</string>
+    <string name="start_now">Now</string>
+    <string name="start_now_hint">The candle is lit the moment you seal it.</string>
+    <string name="start_dawn">At dawn tomorrow</string>
+    <string name="start_dawn_hint">Tomorrow at %s (dawn can be changed in the Rule).</string>
+    <string name="start_supper">After the last supper</string>
+    <string name="start_supper_hint">One last evening the old way; the vow begins at %s.</string>
+    <string name="start_supper_change">Change the hour</string>
+    <string name="start_date">On a day of your choosing</string>
+    <string name="start_date_change">Choose the day and hour</string>
+    <string name="make_why">Why</string>
+    <string name="make_why_hint">In your own words: why you are taking this vow. You\'ll read it when it gets hard.</string>
+    <string name="voice_record">Say it in your own voice</string>
+    <string name="voice_recording">Recording… %d s. Tap to stop.</string>
+    <string name="voice_ready">Your voice is recorded</string>
+    <string name="voice_hint">It\'ll play when temptation comes. It stays on this phone.</string>
+    <string name="voice_denied">The microphone is off for Vigil; you can turn it on in the phone\'s settings.</string>
+    <string name="voice_play">Listen</string>
+    <string name="make_rigor">Rigor</string>
+    <string name="make_ladder">The ladder of release</string>
+    <string name="make_ladder_hint">What stands between you and breaking the vow, in this order. At any step you can still hold on.</string>
+    <string name="make_wait">The candle burns</string>
+    <string name="make_letter">Letters in the letter</string>
+    <string name="make_voice_needed">Record your voice in the «Why» section, or this step will be skipped.</string>
+    <string name="make_ransom_hint">The ransom: 30 squats, a walk outside…</string>
+    <string name="make_witness_hint">Who: a name</string>
+    <string name="make_witness_phone">Phone (optional; otherwise pick a messenger)</string>
+    <string name="make_tithe_hint">The pledge: €10 to a shelter…</string>
+    <string name="make_tomorrow_at">Breaking allowed from %s tomorrow. Change</string>
+    <string name="make_testament">The testament</string>
+    <string name="make_testament_hint">A letter to yourself. It stays sealed and opens only on the day the vow is kept.</string>
+    <string name="make_testament_placeholder">Dear me, if you are reading this…</string>
+    <string name="make_seal">The seal</string>
+    <string name="make_hold">Hold to seal</string>
+    <string name="make_hold_hint">Press and hold the wax until the seal sets.</string>
+    <string name="sealed_eyebrow">Sealed</string>
+    <string name="sealed_text_now">The vow is in force. The candle is lit.</string>
+    <string name="sealed_text_later">The vow is bound and waits for its hour: %s.</string>
+    <string name="sealed_ok">So be it</string>
+
+    <!-- Vow -->
+    <string name="vow_waiting">Waiting to begin</string>
+    <string name="vow_kept">Kept</string>
+    <string name="vow_burned">Burned</string>
+    <string name="vow_voice">Your voice</string>
+    <string name="vow_start_now">Begin now</string>
+    <string name="vow_open_page">Open its page</string>
+    <string name="vow_tempt_hint">Light the candle for %d minutes and breathe</string>
+    <string name="vow_want_break">I want to break it</string>
+    <string name="vow_confess">I already broke it</string>
+    <string name="vow_release">Lay it down with honour</string>
+    <string name="vow_release_title">Lay the vow down?</string>
+    <string name="vow_release_text">A vow with no end is kept by being laid down honestly. It goes to the reliquary.</string>
+    <string name="vow_release_ok">Lay it down</string>
+    <string name="vow_delayed">You chose to sleep on it. Breaking is allowed from %s.</string>
+    <string name="vow_rope">The rope of days</string>
+    <string name="legend_kept">kept</string>
+    <string name="legend_gold">held</string>
+    <string name="legend_mended">mended</string>
+    <string name="legend_crack">broken</string>
+    <string name="stat_kept">days kept</string>
+    <string name="stat_held">temptations held</string>
+    <string name="stat_cracks">cracks</string>
+    <string name="vow_penance_added">penance: +%s</string>
+    <string name="vow_ladder">The ladder of release</string>
+    <string name="vow_ladder_empty">No ladder: the vow can be broken at once.</string>
+    <string name="vow_testament">The testament</string>
+    <string name="vow_testament_locked">Sealed until %s.</string>
+    <string name="vow_testament_locked_open">Sealed until you lay the vow down.</string>
+    <string name="vow_chronicle">What happened</string>
+    <string name="vow_delete_title">Delete the vow?</string>
+    <string name="vow_delete_text">The vow, its days, its letters and its temptations will be erased, as if it had never been. To end a vow honestly, break it or keep it.</string>
+    <string name="event_day">Day %d</string>
+    <string name="ev_done">done</string>
+    <string name="ev_kept">kept</string>
+    <string name="ev_hard">a hard day</string>
+    <string name="ev_overcome">temptation held</string>
+    <string name="ev_ransom">ransomed</string>
+    <string name="ev_letter">a letter</string>
+    <string name="ev_tithe">a tithe pledged</string>
+    <string name="ev_indulgence">forgiven</string>
+    <string name="ev_penance">penance</string>
+    <string name="ev_crack">the seal cracked</string>
+    <string name="ev_burn">burned</string>
+    <string name="ev_missed">not done</string>
+    <string name="ev_end">kept to the end</string>
+    <string name="ev_released">laid down with honour</string>
+
+    <!-- Temptation -->
+    <string name="tempt_button">Temptation</string>
+    <string name="tempt_eyebrow">Temptation</string>
+    <string name="tempt_which">Which vow is being tested?</string>
+    <plurals name="tempt_kept">
+        <item quantity="one">You\'ve kept it %d day. Don\'t give it away for a minute.</item>
+        <item quantity="other">You\'ve kept it %d days. Don\'t give them away for a minute.</item>
+    </plurals>
+    <string name="tempt_in">Breathe in…</string>
+    <string name="tempt_outbreath">…and out</string>
+    <string name="tempt_out">The candle is out. A craving rarely outlasts it.</string>
+    <string name="tempt_strength">How strong is it?</string>
+    <string name="tempt_trigger">What set it off?</string>
+    <string name="tempt_held">I held</string>
+    <string name="tempt_stronger">It\'s stronger than me</string>
+    <string name="held_title">Held</string>
+    <plurals name="held_text">
+        <item quantity="one">A gold bead on the rope. That\'s %d temptation held for this vow.</item>
+        <item quantity="other">A gold bead on the rope. That\'s %d temptations held for this vow.</item>
+    </plurals>
+    <string name="held_ok">Back to the day</string>
+
+    <!-- Release -->
+    <string name="release_title">The ladder of release</string>
+    <string name="release_confess_title">A confession</string>
+    <string name="release_step">Step %1$d of %2$d</string>
+    <string name="release_next">Go on</string>
+    <string name="release_hold">I\'ll hold on</string>
+    <string name="release_back">Back to the vows</string>
+    <string name="release_wait_left">%s left</string>
+    <string name="release_wait_done">The candle is out. Do you still want to?</string>
+    <string name="release_voice_playing">Playing your voice…</string>
+    <string name="release_voice_again">Listen again</string>
+    <string name="release_letter_hint">Why am I breaking it, and why now…</string>
+    <string name="release_letter_count">%1$d of %2$d letters</string>
+    <string name="release_ransom_eyebrow">The ransom</string>
+    <string name="release_ransom_default">Something hard and good, right now</string>
+    <string name="release_ransom_done">I paid the ransom</string>
+    <string name="release_ransom_skip">No, I\'ll go on</string>
+    <string name="release_witness_to">To: %s</string>
+    <string name="release_witness_someone">your witness</string>
+    <string name="release_witness_message">I\'m about to break my vow «%s».</string>
+    <string name="release_witness_send">Send the message</string>
+    <string name="release_tithe_pledged">You pledged</string>
+    <string name="release_tithe_default">Your pledge</string>
+    <string name="release_tithe_accept">I accept the debt</string>
+    <string name="release_tomorrow_at">Breaking will be allowed tomorrow from %s.</string>
+    <string name="release_tomorrow_ok">Sleep on it</string>
+    <string name="release_held_title">You held</string>
+    <string name="release_held_text">The vow stands, and the rope has a gold bead.</string>
+    <string name="release_ransomed_title">Ransomed</string>
+    <string name="release_ransomed_text">The vow stands, bought back with: %s.</string>
+    <string name="release_delayed_title">Until morning</string>
+    <string name="release_delayed_text">Breaking is allowed from %s. In the morning the vow will ask whether you still want to.</string>
+    <string-array name="questions">
+        <item>How will you feel an hour from now?</item>
+        <item>What is this really about?</item>
+        <item>What would you say to a friend in your place?</item>
+    </string-array>
+    <string name="done_indulgence">Forgiven</string>
+    <string name="done_indulgence_text">The day is forgiven, the vow goes on. Indulgences come one in ten days; use them sparingly.</string>
+    <string name="done_penance">Penance</string>
+    <plurals name="done_penance_text">
+        <item quantity="one">The vow goes on, %d day longer.</item>
+        <item quantity="other">The vow goes on, %d days longer.</item>
+    </plurals>
+    <string name="done_crack">The seal has cracked</string>
+    <string name="done_crack_text">The vow goes on. The crack stays: an honest mark of this day.</string>
+    <string name="done_burn">The vow has burned</string>
+    <string name="done_burn_text">It goes to the chronicle unfinished. What you held before still counts. You can begin again.</string>
+    <string name="done_again">Begin again</string>
+    <string name="done_chronicle">Not now</string>
+
+    <!-- Catalog -->
+    <string name="catalog_eyebrow">Sixty-odd vows</string>
+    <string name="catalog_title">The catalog</string>
+    <string name="catalog_own">Write your own vow</string>
+    <string name="catalog_all">All</string>
+    <string name="catalog_taken">taken</string>
+    <string name="season_now">Now · %1$s – %2$s</string>
+    <string name="season_soon">Soon · %1$s – %2$s</string>
+    <string name="season_join">%s left: you can still join.</string>
+    <string name="season_prepare">%s. Seal it now, and it\'ll begin on the day.</string>
+    <string name="season_take">Take this vow</string>
+    <string name="season_dry_january">Dry January</string>
+    <string name="season_lent">Lent</string>
+    <string name="season_sober_october">Sober October</string>
+    <string name="season_no_spend">No-spend November</string>
+    <string name="season_nativity">Nativity Fast</string>
+    <string name="preset_life">Its life</string>
+    <string name="preset_hard">On the hard days</string>
+    <string name="preset_next">The next step</string>
+    <string name="preset_next_hint">Once this vow is kept</string>
+    <string name="preset_take">Take this vow</string>
+    <string name="preset_taken">You are already keeping this vow.</string>
+
+    <!-- Chronicle -->
+    <string name="chronicle_eyebrow">Everything kept and broken</string>
+    <string name="chronicle_title">The chronicle</string>
+    <string name="stat_vows_kept">vows kept</string>
+    <string name="stat_days">days in vows</string>
+    <string name="reliquary">The reliquary</string>
+    <string name="reliquary_empty">The seals of kept vows will rest here.</string>
+    <string name="map_title">The map of temptations</string>
+    <string name="map_peak">%1$d%% of your temptations come on %2$s, %3$s.</string>
+    <string-array name="slots">
+        <item>at night</item>
+        <item>early in the morning</item>
+        <item>in the morning</item>
+        <item>in the afternoon</item>
+        <item>in the evening</item>
+        <item>late in the evening</item>
+    </string-array>
+    <string name="map_held">Held %1$d of %2$d.</string>
+    <string name="debts_title">Tithes</string>
+    <string name="letters_title">Letters</string>
+    <string name="hours_title">The book of hours</string>
+    <string name="chronicle_empty">The chronicle is empty for now. It fills with every vow, every temptation and every letter.</string>
+    <string name="page_kept">The vow is kept</string>
+    <string name="page_released">Laid down with honour</string>
+    <string name="page_burned">The vow burned</string>
+    <string name="page_burned_text">A burned vow isn\'t a defeat: every kept day before the fire still happened.</string>
+    <string name="page_testament">The testament</string>
+    <string name="page_testament_sealed">You wrote yourself a letter when you sealed this vow. Its day has come.</string>
+    <string name="page_testament_open">Break the seal</string>
+    <string name="page_next">Next step: %s</string>
+    <string name="page_again">Take it again</string>
+
+    <!-- Settings -->
+    <string name="settings_title">The rule</string>
+    <string name="settings_you">You</string>
+    <string name="gender_m">He</string>
+    <string name="gender_f">She</string>
+    <string name="gender_hint">For the word forms in Russian.</string>
+    <string name="lang_system">System</string>
+    <string name="lang_en">English</string>
+    <string name="lang_ru">Русский</string>
+    <string name="settings_rhythm">Rhythm</string>
+    <string name="settings_morning">The morning rule</string>
+    <string name="settings_morning_hint">At %s: today\'s vows and the day\'s warning</string>
+    <string name="settings_examen">The evening examen</string>
+    <string name="settings_examen_hint">At %s: how was the day</string>
+    <string name="settings_change_time">Change the time</string>
+    <string name="settings_rule">The rule</string>
+    <string name="settings_candle">The candle in temptation</string>
+    <string name="settings_dawn">Dawn (for «at dawn tomorrow»)</string>
+    <string name="settings_three">The rule of three</string>
+    <string name="settings_three_hint">No more than three vows at once: discipline is also not taking on too much.</string>
+    <string name="settings_about">About</string>
+    <string name="settings_version">Vigil, a Stillcraft app</string>
+    <string name="settings_privacy">No account, no ads, no network. Vows, letters and your voice stay on this phone.</string>
+    <string name="settings_wipe">Erase everything</string>
+    <string name="settings_wipe_title">Erase everything?</string>
+    <string name="settings_wipe_text">Every vow, letter, temptation and recording will be gone for good.</string>
+    <string name="settings_wipe_ok">Erase</string>
+
+    <!-- Onboarding -->
+    <string name="onb_1_title">Make a vow</string>
+    <string name="onb_1_text">Give something up or take something on: no sugar, a cold shower, mornings without a phone. Choose how long and when it begins. Then seal it with wax.</string>
+    <string name="onb_2_title">The seal can be broken, but not easily</string>
+    <string name="onb_2_text">Every vow has its own ladder of release: a candle of waiting, your own voice, a letter, three questions, a witness. At any step you may still hold on.</string>
+    <string name="onb_3_title">When temptation comes</string>
+    <string name="onb_3_text">Light the candle and breathe with the flame. A craving rarely outlasts it. Every temptation held is a gold bead on your rope.</string>
+    <string name="onb_4_title">And who are you?</string>
+    <string name="onb_4_text">A name for the vows page. Everything stays on this phone.</string>
+    <string name="onb_name_hint">Your name (optional)</string>
+    <string name="onb_start">Begin</string>
+
+    <!-- Notifications -->
+    <string name="channel_rule">The morning rule and the evening examen</string>
+    <string name="channel_rule_desc">Today\'s vows in the morning, and how the day went in the evening</string>
+    <string name="channel_moment">A vow\'s moments</string>
+    <string name="channel_moment_desc">A vow begins, is kept, or the night of «sleep on it» is over</string>
+    <string name="notif_morning_title">The morning rule</string>
+    <string name="notif_examen_title">The evening examen</string>
+    <string name="notif_examen_text">How was the day? %s</string>
+    <string name="notif_start_title">«%s» is in force</string>
+    <string name="notif_start_text">The vow has begun. The candle is lit.</string>
+    <string name="notif_end_title">«%s» is kept</string>
+    <string name="notif_end_text">The last day is behind you. Open the page: the testament is waiting.</string>
+    <string name="notif_break_title">Morning has come</string>
+    <string name="notif_break_text">Do you still want to break «%s»?</string>
+
+    <!-- Widget -->
+    <string name="widget_name">Vigil candle</string>
+    <string name="widget_desc">Your vow and its day, by candlelight</string>
+    <string name="widget_none">No vow yet</string>
+    <string name="widget_none_sub">Tap to take one</string>
+    <string name="widget_waiting">waiting to begin</string>
+</resources>

@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Обет</string>
+    <string name="back">Назад</string>
+    <string name="cancel">Отмена</string>
+    <string name="save">Сохранить</string>
+    <string name="next">Дальше</string>
+    <string name="delete">Удалить</string>
+    <string name="new_vow">Новый обет</string>
+    <string name="minutes_short">%d мин</string>
+
+    <string name="tab_vows">Обеты</string>
+    <string name="tab_catalog">Каталог</string>
+    <string name="tab_chronicle">Летопись</string>
+    <string name="tab_settings">Устав</string>
+
+    <!-- Разделы, типы, строгость -->
+    <string name="cat_body">Тело</string>
+    <string name="cat_digital">Цифровое</string>
+    <string name="cat_speech">Речь</string>
+    <string name="cat_money">Деньги</string>
+    <string name="cat_mind">Разум</string>
+    <string name="cat_heart">Сердце</string>
+    <string name="cat_spirit">Дух</string>
+
+    <string name="type_abstain">Воздержание</string>
+    <string name="type_practice">Практика</string>
+    <string name="type_limit">Мера</string>
+    <string name="type_window">Часы</string>
+    <string name="type_abstain_hint">Ни разу за всё время обета.</string>
+    <string name="type_practice_hint">Каждый день; каждый день отмечается.</string>
+    <string name="type_limit_hint">Не больше меры в день.</string>
+    <string name="type_window_hint">Не в эти часы дня.</string>
+    <string name="rule_abstain">Ни разу</string>
+    <string name="rule_practice">Каждый день</string>
+    <string name="rule_limit">Не больше %1$d (%2$s) в день</string>
+    <string name="rule_window">Не с %1$s до %2$s</string>
+    <string name="unit_default">раз</string>
+
+    <string name="rigor_novice">Послушник</string>
+    <string name="rigor_monk">Монах</string>
+    <string name="rigor_hermit">Отшельник</string>
+    <string name="rigor_novice_hint">Мягко: одна оплошность за десять дней прощается, а нарушенный день стоит одного лишнего дня.</string>
+    <string name="rigor_monk_hint">Обычный путь: нарушение стоит трёх лишних дней или трещины на печати.</string>
+    <string name="rigor_hermit_hint">Сурово: исправить нельзя. Нарушенный обет сгорает, и ты начинаешь заново.</string>
+
+    <!-- Лестница -->
+    <string name="step_wait">Свеча ожидания</string>
+    <string name="step_voice">Твой голос</string>
+    <string name="step_letter">Письмо</string>
+    <string name="step_questions">Три вопроса</string>
+    <string name="step_ransom">Выкуп</string>
+    <string name="step_witness">Поручитель</string>
+    <string name="step_tithe">Десятина</string>
+    <string name="step_tomorrow">Утро вечера мудренее</string>
+    <string name="step_wait_hint">Свеча должна догореть, прежде чем можно идти дальше. Большинство тяг проходит за эти минуты.</string>
+    <string name="step_voice_hint">Твоя причина, твоим голосом, до конца.</string>
+    <string name="step_letter_hint">Напиши, почему нарушаешь обет. Письмо останется в летописи.</string>
+    <string name="step_questions_hint">Ответь честно — хотя бы себе.</string>
+    <string name="step_ransom_hint">Поступок, которым обет выкупается: сделал{|а} — и обет цел.</string>
+    <string name="step_witness_hint">Тот, кого ты выбрал{|а}, узнает. Тихо нарушить не выйдет.</string>
+    <string name="step_tithe_hint">Обещанное становится долгом в летописи.</string>
+    <string name="step_tomorrow_hint">Нарушить можно только завтра, с заранее выбранного часа.</string>
+
+    <!-- Исходы -->
+    <string name="outcome_indulgence">Индульгенция</string>
+    <string name="outcome_penance">Покаяние</string>
+    <string name="outcome_crack">Трещина</string>
+    <string name="outcome_burn">Сожжение</string>
+    <plurals name="outcome_indulgence_hint">
+        <item quantity="one">Прощено. Пока осталась %d индульгенция.</item>
+        <item quantity="few">Прощено. Пока осталось %d индульгенции.</item>
+        <item quantity="many">Прощено. Пока осталось %d индульгенций.</item>
+        <item quantity="other">Прощено. Пока осталось %d индульгенции.</item>
+    </plurals>
+    <plurals name="outcome_penance_hint">
+        <item quantity="one">Обет продолжается, но на %d день дольше.</item>
+        <item quantity="few">Обет продолжается, но на %d дня дольше.</item>
+        <item quantity="many">Обет продолжается, но на %d дней дольше.</item>
+        <item quantity="other">Обет продолжается, но на %d дня дольше.</item>
+    </plurals>
+    <string name="outcome_crack_hint">Обет продолжается, но на печати появляется трещина — навсегда.</string>
+    <string name="outcome_burn_hint">Свиток сгорает и уходит в летопись незавершённым.</string>
+    <string name="outcome_burn_hermit_hint">Обет отшельника не исправить: он сгорает. Начать заново можно сразу.</string>
+    <string name="outcome_title">Что станет с обетом?</string>
+    <string name="outcome_text">Ты нарушил{|а} обет. Так бывает. Честно выбери, что дальше.</string>
+    <string name="outcome_hermit_text">Это был обет отшельника. Путь один.</string>
+    <string name="outcome_apply">Да будет так</string>
+    <string name="outcome_burn_confirm_title">Сжечь обет?</string>
+    <string name="outcome_burn_confirm_text">«%s» уйдёт в летопись незавершённым. Этого не отменить.</string>
+
+    <!-- Триггеры -->
+    <string name="trigger_boredom">Скука</string>
+    <string name="trigger_fatigue">Усталость</string>
+    <string name="trigger_stress">Стресс</string>
+    <string name="trigger_company">Компания</string>
+    <string name="trigger_evening">Вечер</string>
+    <string name="trigger_habit">Привычка</string>
+    <string name="trigger_sadness">Грусть</string>
+    <string name="trigger_joy">Праздник</string>
+
+    <!-- Дни и сроки -->
+    <string name="day_of">день %1$d из %2$d</string>
+    <string name="day_n">день %d</string>
+    <plurals name="days">
+        <item quantity="one">%d день</item>
+        <item quantity="few">%d дня</item>
+        <item quantity="many">%d дней</item>
+        <item quantity="other">%d дня</item>
+    </plurals>
+    <string name="length_open">Без срока</string>
+    <string name="length_note_open">Пока не снимешь его с честью.</string>
+    <string name="length_note_3">Три дня — проба сил.</string>
+    <string name="length_note_7">Седмица — самый короткий настоящий обет.</string>
+    <string name="length_note_21">Двадцать один день — столько нужно, чтобы привычка пустила корни.</string>
+    <string name="length_note_40">Сорок дней — срок поста и испытания.</string>
+    <string name="length_note_49">Семь седмиц по семь дней.</string>
+    <string name="length_note_108">Сто восемь — полный круг чёток.</string>
+    <string name="in_min">через %d мин</string>
+    <string name="in_hours">через %1$d ч %2$d мин</string>
+    <plurals name="in_days">
+        <item quantity="one">через %d день</item>
+        <item quantity="few">через %d дня</item>
+        <item quantity="many">через %d дней</item>
+        <item quantity="other">через %d дня</item>
+    </plurals>
+
+    <!-- Трудные дни -->
+    <string name="demon_eyebrow">День %1$d · %2$s</string>
+    <string name="demon_3">Третий день обычно самый тяжёлый: тело просит старого. Держись до вечера.</string>
+    <string name="demon_7">Седмица. Первая гордость прошла, приходит скука. Именно здесь обеты нарушают по привычке.</string>
+    <string name="demon_14">Две недели. Кажется, что ты всё доказал{|а}. Эта мысль — и есть искушение.</string>
+    <string name="demon_21">Двадцать один день: трудное становится привычкой. Не останавливайся на пороге.</string>
+    <string name="demon_30">Месяц. Ты уже не тот человек, что начинал{|а}.</string>
+    <string name="demon_40">Сорок дней — срок поста. Мало кто доходит сюда.</string>
+
+    <!-- Обеты -->
+    <string name="vows_title">Твои обеты</string>
+    <string name="vows_title_named">Обеты · %s</string>
+    <string name="vows_waiting">Связаны, ждут начала</string>
+    <string name="vows_another">Дать ещё обет</string>
+    <string name="vows_rule_of_three">Правило трёх: не больше трёх обетов сразу. Сначала заверши один.</string>
+    <string name="empty_title">Ещё ни одного обета</string>
+    <string name="empty_text">Выбери, от чего отказаться или что взять на себя, на сколько, и что встанет между тобой и нарушением. Потом запечатай сургучом.</string>
+    <string name="empty_catalog">Дать первый обет</string>
+    <string name="empty_kept">Исполнено обетов: %d</string>
+    <string name="practice_mark">Исполнено сегодня</string>
+    <string name="practice_done_today">Сегодня исполнено. Нажми, чтобы отменить.</string>
+    <string name="confess_eyebrow">Незакрытый день</string>
+    <string name="confess_yesterday">«%1$s»: вчера исполнено?</string>
+    <string name="confess_day">«%1$s»: в день %2$d исполнено?</string>
+    <string name="confess_yes">Да, исполнил{|а}</string>
+    <string name="confess_no">Нет</string>
+    <string name="delay_eyebrow">Утро наступило</string>
+    <string name="delay_title">Ты всё ещё хочешь нарушить «%s»?</string>
+    <string name="delay_text">Ты решил{|а}, что утро вечера мудренее. Ночь прошла. Если желание ушло — скажи: это зачтётся как выстоянное искушение.</string>
+    <string name="delay_hold">Прошло</string>
+    <string name="delay_go">Всё ещё хочу</string>
+    <string name="examen_eyebrow">Вечерний экзамен</string>
+    <string name="examen_title">Как прошёл день?</string>
+    <string name="examen_kept">Выдержал{|а}</string>
+    <string name="examen_hard">Было трудно</string>
+    <string name="examen_broke">Сегодня я нарушил{|а}…</string>
+    <string name="waiting_starts">Начнётся %s</string>
+
+    <!-- Устав обета -->
+    <string name="make_title">Устав обета</string>
+    <string name="make_title_own">Свой обет</string>
+    <string name="make_what">Обет</string>
+    <string name="make_title_hint">Что ты обещаешь, в нескольких словах</string>
+    <string name="make_limit">Сколько в день</string>
+    <string name="make_unit_hint">Чего: чашек, минут…</string>
+    <string name="make_window_from">С</string>
+    <string name="make_window_to">До</string>
+    <string name="make_length">Срок</string>
+    <string name="make_length_custom">Свой</string>
+    <string name="make_days">Дней</string>
+    <string name="make_start">Начало</string>
+    <string name="start_now">Сейчас</string>
+    <string name="start_now_hint">Свеча загорится, как только запечатаешь.</string>
+    <string name="start_dawn">Завтра на рассвете</string>
+    <string name="start_dawn_hint">Завтра в %s (рассвет меняется в Уставе).</string>
+    <string name="start_supper">После последнего ужина</string>
+    <string name="start_supper_hint">Последний вечер по-старому; обет начнётся в %s.</string>
+    <string name="start_supper_change">Изменить час</string>
+    <string name="start_date">В выбранный день</string>
+    <string name="start_date_change">Выбрать день и час</string>
+    <string name="make_why">Зачем</string>
+    <string name="make_why_hint">Своими словами: зачем ты даёшь этот обет. Ты перечитаешь это, когда станет трудно.</string>
+    <string name="voice_record">Сказать своим голосом</string>
+    <string name="voice_recording">Запись… %d с. Нажми, чтобы остановить.</string>
+    <string name="voice_ready">Голос записан</string>
+    <string name="voice_hint">Он прозвучит в минуту искушения. Запись остаётся на телефоне.</string>
+    <string name="voice_denied">Микрофон для Обета выключен; его можно включить в настройках телефона.</string>
+    <string name="voice_play">Послушать</string>
+    <string name="make_rigor">Строгость</string>
+    <string name="make_ladder">Лестница разрешения</string>
+    <string name="make_ladder_hint">Что встанет между тобой и нарушением — по порядку. На любой ступени ещё можно выстоять.</string>
+    <string name="make_wait">Свеча горит</string>
+    <string name="make_letter">Знаков в письме</string>
+    <string name="make_voice_needed">Запиши голос в разделе «Зачем», иначе этот шаг пропустится.</string>
+    <string name="make_ransom_hint">Выкуп: 30 приседаний, выйти на улицу…</string>
+    <string name="make_witness_hint">Кто: имя</string>
+    <string name="make_witness_phone">Телефон (не обязательно; иначе выберешь мессенджер)</string>
+    <string name="make_tithe_hint">Обещание: 500 ₽ в приют…</string>
+    <string name="make_tomorrow_at">Нарушить можно будет завтра с %s. Изменить</string>
+    <string name="make_testament">Завещание</string>
+    <string name="make_testament_hint">Письмо себе. Оно запечатано и откроется только в день, когда обет будет исполнен.</string>
+    <string name="make_testament_placeholder">Если ты читаешь это, значит…</string>
+    <string name="make_seal">Печать</string>
+    <string name="make_hold">Удерживай, чтобы запечатать</string>
+    <string name="make_hold_hint">Прижми сургуч и держи, пока печать не встанет.</string>
+    <string name="sealed_eyebrow">Запечатано</string>
+    <string name="sealed_text_now">Обет в силе. Свеча зажжена.</string>
+    <string name="sealed_text_later">Обет связан и ждёт своего часа: %s.</string>
+    <string name="sealed_ok">Да будет так</string>
+
+    <!-- Обет -->
+    <string name="vow_waiting">Ждёт начала</string>
+    <string name="vow_kept">Исполнен</string>
+    <string name="vow_burned">Сгорел</string>
+    <string name="vow_voice">Твой голос</string>
+    <string name="vow_start_now">Начать сейчас</string>
+    <string name="vow_open_page">Открыть страницу</string>
+    <string name="vow_tempt_hint">Зажечь свечу на %d мин и дышать</string>
+    <string name="vow_want_break">Хочу нарушить</string>
+    <string name="vow_confess">Я уже нарушил{|а}</string>
+    <string name="vow_release">Снять с честью</string>
+    <string name="vow_release_title">Снять обет?</string>
+    <string name="vow_release_text">Обет без срока исполняется тем, что его честно снимают. Он отправится в реликварий.</string>
+    <string name="vow_release_ok">Снять</string>
+    <string name="vow_delayed">Ты решил{|а} подождать до утра. Нарушить можно будет с %s.</string>
+    <string name="vow_rope">Чётки дней</string>
+    <string name="legend_kept">выдержан</string>
+    <string name="legend_gold">выстоян</string>
+    <string name="legend_mended">исправлен</string>
+    <string name="legend_crack">нарушен</string>
+    <string name="stat_kept">дней выдержано</string>
+    <string name="stat_held">искушений выстояно</string>
+    <string name="stat_cracks">трещин</string>
+    <string name="vow_penance_added">покаяние: +%s</string>
+    <string name="vow_ladder">Лестница разрешения</string>
+    <string name="vow_ladder_empty">Лестницы нет: обет можно нарушить сразу.</string>
+    <string name="vow_testament">Завещание</string>
+    <string name="vow_testament_locked">Запечатано до %s.</string>
+    <string name="vow_testament_locked_open">Запечатано, пока не снимешь обет.</string>
+    <string name="vow_chronicle">Что было</string>
+    <string name="vow_delete_title">Удалить обет?</string>
+    <string name="vow_delete_text">Обет, его дни, письма и искушения сотрутся, будто его и не было. Чтобы честно завершить обет, исполни или нарушь его.</string>
+    <string name="event_day">День %d</string>
+    <string name="ev_done">исполнено</string>
+    <string name="ev_kept">выдержан</string>
+    <string name="ev_hard">трудный день</string>
+    <string name="ev_overcome">искушение выстояно</string>
+    <string name="ev_ransom">выкуплен</string>
+    <string name="ev_letter">письмо</string>
+    <string name="ev_tithe">десятина обещана</string>
+    <string name="ev_indulgence">прощено</string>
+    <string name="ev_penance">покаяние</string>
+    <string name="ev_crack">треснула печать</string>
+    <string name="ev_burn">сожжён</string>
+    <string name="ev_missed">не исполнено</string>
+    <string name="ev_end">исполнен до конца</string>
+    <string name="ev_released">снят с честью</string>
+
+    <!-- Искушение -->
+    <string name="tempt_button">Искушение</string>
+    <string name="tempt_eyebrow">Искушение</string>
+    <string name="tempt_which">Какой обет испытывается?</string>
+    <plurals name="tempt_kept">
+        <item quantity="one">Ты держишься %d день. Не отдавай его за минуту.</item>
+        <item quantity="few">Ты держишься %d дня. Не отдавай их за минуту.</item>
+        <item quantity="many">Ты держишься %d дней. Не отдавай их за минуту.</item>
+        <item quantity="other">Ты держишься %d дня. Не отдавай их за минуту.</item>
+    </plurals>
+    <string name="tempt_in">Вдох…</string>
+    <string name="tempt_outbreath">…и выдох</string>
+    <string name="tempt_out">Свеча догорела. Тяга редко живёт дольше неё.</string>
+    <string name="tempt_strength">Насколько сильно?</string>
+    <string name="tempt_trigger">Что вызвало?</string>
+    <string name="tempt_held">Я выстоял{|а}</string>
+    <string name="tempt_stronger">Тяга сильнее меня</string>
+    <string name="held_title">Выстоял{|а}</string>
+    <plurals name="held_text">
+        <item quantity="one">Золотая бусина на чётках. Это %d выстоянное искушение в этом обете.</item>
+        <item quantity="few">Золотая бусина на чётках. Уже %d выстоянных искушения в этом обете.</item>
+        <item quantity="many">Золотая бусина на чётках. Уже %d выстоянных искушений в этом обете.</item>
+        <item quantity="other">Золотая бусина на чётках. Уже %d выстоянного искушения в этом обете.</item>
+    </plurals>
+    <string name="held_ok">Вернуться к дню</string>
+
+    <!-- Лестница разрешения -->
+    <string name="release_title">Лестница разрешения</string>
+    <string name="release_confess_title">Признание</string>
+    <string name="release_step">Ступень %1$d из %2$d</string>
+    <string name="release_next">Дальше</string>
+    <string name="release_hold">Я выстою</string>
+    <string name="release_back">К обетам</string>
+    <string name="release_wait_left">Осталось %s</string>
+    <string name="release_wait_done">Свеча догорела. Ты всё ещё хочешь?</string>
+    <string name="release_voice_playing">Звучит твой голос…</string>
+    <string name="release_voice_again">Послушать ещё раз</string>
+    <string name="release_letter_hint">Почему я нарушаю обет, и почему сейчас…</string>
+    <string name="release_letter_count">%1$d из %2$d знаков</string>
+    <string name="release_ransom_eyebrow">Выкуп</string>
+    <string name="release_ransom_default">Что-то трудное и доброе, прямо сейчас</string>
+    <string name="release_ransom_done">Я выкупил{|а} обет</string>
+    <string name="release_ransom_skip">Нет, иду дальше</string>
+    <string name="release_witness_to">Кому: %s</string>
+    <string name="release_witness_someone">твоему поручителю</string>
+    <string name="release_witness_message">Я собираюсь нарушить свой обет «%s».</string>
+    <string name="release_witness_send">Отправить сообщение</string>
+    <string name="release_tithe_pledged">Ты обещал{|а}</string>
+    <string name="release_tithe_default">Твоё обещание</string>
+    <string name="release_tithe_accept">Принимаю долг</string>
+    <string name="release_tomorrow_at">Нарушить можно будет завтра с %s.</string>
+    <string name="release_tomorrow_ok">Отложить до утра</string>
+    <string name="release_held_title">Ты выстоял{|а}</string>
+    <string name="release_held_text">Обет цел, а на чётках — золотая бусина.</string>
+    <string name="release_ransomed_title">Обет выкуплен</string>
+    <string name="release_ransomed_text">Обет цел. Выкуп: %s.</string>
+    <string name="release_delayed_title">До утра</string>
+    <string name="release_delayed_text">Нарушить можно будет с %s. Утром обет спросит, хочешь ли ты этого до сих пор.</string>
+    <string-array name="questions">
+        <item>Что ты почувствуешь через час?</item>
+        <item>О чём это на самом деле?</item>
+        <item>Что бы ты сказал{|а} другу на своём месте?</item>
+    </string-array>
+    <string name="done_indulgence">Прощено</string>
+    <string name="done_indulgence_text">День прощён, обет продолжается. Индульгенция даётся одна на десять дней — береги их.</string>
+    <string name="done_penance">Покаяние</string>
+    <plurals name="done_penance_text">
+        <item quantity="one">Обет продолжается, на %d день дольше.</item>
+        <item quantity="few">Обет продолжается, на %d дня дольше.</item>
+        <item quantity="many">Обет продолжается, на %d дней дольше.</item>
+        <item quantity="other">Обет продолжается, на %d дня дольше.</item>
+    </plurals>
+    <string name="done_crack">Печать треснула</string>
+    <string name="done_crack_text">Обет продолжается. Трещина останется — честный след этого дня.</string>
+    <string name="done_burn">Обет сгорел</string>
+    <string name="done_burn_text">Он уходит в летопись незавершённым. Всё, что ты выдержал{|а} до этого, не пропало. Можно начать заново.</string>
+    <string name="done_again">Начать заново</string>
+    <string name="done_chronicle">Не сейчас</string>
+
+    <!-- Каталог -->
+    <string name="catalog_eyebrow">Семьдесят обетов</string>
+    <string name="catalog_title">Каталог</string>
+    <string name="catalog_own">Написать свой обет</string>
+    <string name="catalog_all">Все</string>
+    <string name="catalog_taken">уже дан</string>
+    <string name="season_now">Сейчас · %1$s – %2$s</string>
+    <string name="season_soon">Скоро · %1$s – %2$s</string>
+    <string name="season_join">Осталось %s — ещё можно присоединиться.</string>
+    <string name="season_prepare">%s. Запечатай сейчас — и обет начнётся в свой день.</string>
+    <string name="season_take">Дать этот обет</string>
+    <string name="season_dry_january">Трезвый январь</string>
+    <string name="season_lent">Великий пост</string>
+    <string name="season_sober_october">Трезвый октябрь</string>
+    <string name="season_no_spend">Ноябрь без покупок</string>
+    <string name="season_nativity">Рождественский пост</string>
+    <string name="preset_life">Житие</string>
+    <string name="preset_hard">В трудные дни</string>
+    <string name="preset_next">Следующая ступень</string>
+    <string name="preset_next_hint">Когда этот обет будет исполнен</string>
+    <string name="preset_take">Дать этот обет</string>
+    <string name="preset_taken">Ты уже держишь этот обет.</string>
+
+    <!-- Летопись -->
+    <string name="chronicle_eyebrow">Всё исполненное и нарушенное</string>
+    <string name="chronicle_title">Летопись</string>
+    <string name="stat_vows_kept">обетов исполнено</string>
+    <string name="stat_days">дней в обетах</string>
+    <string name="reliquary">Реликварий</string>
+    <string name="reliquary_empty">Здесь лягут печати исполненных обетов.</string>
+    <string name="map_title">Карта искушений</string>
+    <string name="map_peak">%1$d%% искушений приходят в %2$s, %3$s.</string>
+    <string-array name="slots">
+        <item>ночью</item>
+        <item>ранним утром</item>
+        <item>утром</item>
+        <item>днём</item>
+        <item>вечером</item>
+        <item>поздним вечером</item>
+    </string-array>
+    <string name="map_held">Выстояно %1$d из %2$d.</string>
+    <string name="debts_title">Десятины</string>
+    <string name="letters_title">Письма</string>
+    <string name="hours_title">Часослов</string>
+    <string name="chronicle_empty">Летопись пока пуста. Она наполняется каждым обетом, каждым искушением и каждым письмом.</string>
+    <string name="page_kept">Обет исполнен</string>
+    <string name="page_released">Снят с честью</string>
+    <string name="page_burned">Обет сгорел</string>
+    <string name="page_burned_text">Сгоревший обет — не поражение: каждый выдержанный до огня день всё равно был.</string>
+    <string name="page_testament">Завещание</string>
+    <string name="page_testament_sealed">Запечатывая этот обет, ты написал{|а} себе письмо. Его день настал.</string>
+    <string name="page_testament_open">Сломать печать</string>
+    <string name="page_next">Следующая ступень: %s</string>
+    <string name="page_again">Дать его снова</string>
+
+    <!-- Устав -->
+    <string name="settings_title">Устав</string>
+    <string name="settings_you">Ты</string>
+    <string name="gender_m">Он</string>
+    <string name="gender_f">Она</string>
+    <string name="gender_hint">Чтобы обращаться в нужном роде.</string>
+    <string name="lang_system">Системный</string>
+    <string name="lang_en">English</string>
+    <string name="lang_ru">Русский</string>
+    <string name="settings_rhythm">Ритм</string>
+    <string name="settings_morning">Утреннее правило</string>
+    <string name="settings_morning_hint">В %s: обеты на сегодня и предупреждение дня</string>
+    <string name="settings_examen">Вечерний экзамен</string>
+    <string name="settings_examen_hint">В %s: как прошёл день</string>
+    <string name="settings_change_time">Изменить время</string>
+    <string name="settings_rule">Правило</string>
+    <string name="settings_candle">Свеча в искушении</string>
+    <string name="settings_dawn">Рассвет (для «завтра на рассвете»)</string>
+    <string name="settings_three">Правило трёх</string>
+    <string name="settings_three_hint">Не больше трёх обетов сразу: дисциплина — это и умение не брать слишком много.</string>
+    <string name="settings_about">О приложении</string>
+    <string name="settings_version">Обет — приложение Stillcraft</string>
+    <string name="settings_privacy">Без аккаунта, без рекламы, без сети. Обеты, письма и твой голос остаются на телефоне.</string>
+    <string name="settings_wipe">Стереть всё</string>
+    <string name="settings_wipe_title">Стереть всё?</string>
+    <string name="settings_wipe_text">Все обеты, письма, искушения и записи исчезнут навсегда.</string>
+    <string name="settings_wipe_ok">Стереть</string>
+
+    <!-- Знакомство -->
+    <string name="onb_1_title">Дай обет</string>
+    <string name="onb_1_text">Откажись от чего-то или возьми что-то на себя: без сахара, холодный душ, утро без телефона. Выбери срок и час начала. Потом запечатай сургучом.</string>
+    <string name="onb_2_title">Сломать печать можно — но не легко</string>
+    <string name="onb_2_text">У каждого обета своя лестница разрешения: свеча ожидания, твой голос, письмо, три вопроса, поручитель. На любой ступени ещё можно выстоять.</string>
+    <string name="onb_3_title">Когда приходит искушение</string>
+    <string name="onb_3_text">Зажги свечу и дыши в такт пламени. Тяга редко живёт дольше неё. Каждое выстоянное искушение — золотая бусина на твоих чётках.</string>
+    <string name="onb_4_title">А кто ты?</string>
+    <string name="onb_4_text">Имя — для страницы обетов. Всё остаётся на этом телефоне.</string>
+    <string name="onb_name_hint">Твоё имя (не обязательно)</string>
+    <string name="onb_start">Начать</string>
+
+    <!-- Уведомления -->
+    <string name="channel_rule">Утреннее правило и вечерний экзамен</string>
+    <string name="channel_rule_desc">Обеты на сегодня утром и как прошёл день вечером</string>
+    <string name="channel_moment">Мгновения обета</string>
+    <string name="channel_moment_desc">Обет начался, исполнен, или ночь «утро вечера мудренее» прошла</string>
+    <string name="notif_morning_title">Утреннее правило</string>
+    <string name="notif_examen_title">Вечерний экзамен</string>
+    <string name="notif_examen_text">Как прошёл день? %s</string>
+    <string name="notif_start_title">«%s» в силе</string>
+    <string name="notif_start_text">Обет начался. Свеча зажжена.</string>
+    <string name="notif_end_title">«%s» исполнен</string>
+    <string name="notif_end_text">Последний день позади. Открой страницу: тебя ждёт завещание.</string>
+    <string name="notif_break_title">Утро наступило</string>
+    <string name="notif_break_text">Ты всё ещё хочешь нарушить «%s»?</string>
+
+    <!-- Виджет -->
+    <string name="widget_name">Свеча обета</string>
+    <string name="widget_desc">Твой обет и его день при свете свечи</string>
+    <string name="widget_none">Обета пока нет</string>
+    <string name="widget_none_sub">Нажми, чтобы дать</string>
+    <string name="widget_waiting">ждёт начала</string>
+</resources>
