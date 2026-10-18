@@ -148,6 +148,8 @@ object DemoSeed {
             it.copy(
                 onboarded = true,
                 name = if (ru) "Саша" else "Alex",
+                // Three vows are running; leave room to try sealing a fourth.
+                ruleOfThree = false,
                 seen = it.seen + listOf("end:$alcohol", "end:$silence", "end:$read"),
             )
         }

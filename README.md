@@ -17,6 +17,8 @@
 
 **English** · [Русский](README.ru.md) · [Changelog](CHANGELOG.md)
 
+<img src="docs/screenshots/overview.png" alt="Vigil on a phone: the vows with their seals and prayer ropes, the candle in temptation, a vow's page and the chronicle" width="100%" />
+
 </div>
 
 ---

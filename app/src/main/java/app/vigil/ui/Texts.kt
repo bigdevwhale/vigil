@@ -204,7 +204,7 @@ object T {
     fun local(ms: Long, zone: ZoneId = ZoneId.systemDefault()) = Instant.ofEpochMilli(ms).atZone(zone)
 
     fun date(c: Context, d: LocalDate): String =
-        d.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.LONG).withLocale(c.resources.configuration.locales[0])).removeSuffix(" г.")
+        d.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.LONG).withLocale(c.resources.configuration.locales[0])).replace(Regex("\\s*г\\.$"), "")
 
     fun date(c: Context, ms: Long): String = date(c, local(ms).toLocalDate())
 

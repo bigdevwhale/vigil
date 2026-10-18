@@ -13,6 +13,8 @@
 
 [English](README.md) · **Русский** · [Изменения](CHANGELOG.md)
 
+<img src="docs/screenshots/overview.ru.png" alt="Обет на телефоне: обеты с печатями и чётками, свеча в искушении, страница обета и летопись" width="100%" />
+
 </div>
 
 ---
