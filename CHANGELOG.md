@@ -1,5 +1,11 @@
 # Changelog
 
+<!--
+Telegram: end each version's section with a hidden block for the StillCraft chat. Start it with a
+line "<!-- tg", then 2-4 short lines in Russian for users (what is new, what is fixed), no markdown,
+then close it like any HTML comment. The release notes carry it, and the chat bot posts those lines.
+-->
+
 ## [1.0.1] - 2026-10-24
 
 - **Google Play**: each release now also carries a signed AAB, and the store listing, graphics and privacy policy are in the repository.
