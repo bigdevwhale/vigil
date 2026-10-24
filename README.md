@@ -73,7 +73,7 @@ The candle button in the middle of the bar opens the night: a candle burns for t
 
 ## Privacy
 
-No account, no analytics, no ads, no network permission. Vows, letters and voice recordings stay in the app's own storage.
+No account, no analytics, no ads, no network permission. Vows, letters and voice recordings stay in the app's own storage. See the [privacy policy](PRIVACY.md).
 
 ## Build
 
