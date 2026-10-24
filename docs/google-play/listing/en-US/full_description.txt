@@ -1,0 +1,46 @@
+Make a vow. Seal it with wax. The seal can be broken, but not easily.
+
+Vigil is an app for vows of abstinence and practice: no sugar, a cold shower, mornings without a phone. Choose how long, when it begins and what stands between you and breaking it. No account, no ads, no internet — everything stays on your phone.
+
+📜 MAKE A VOW
+• 70 vows from the catalog in seven parts — body, digital, speech, money, mind, heart, spirit — or your own
+• Abstain, a daily practice, a measure ("one cup a day") or hours ("no phone 22:00–7:00")
+• 3, 7, 21, 40, 49 or 108 days, your own length, or no end — each traditional number explained
+• Begin now, at dawn tomorrow, after the last supper, or on a day you choose
+• Your reason in your own words, and in your own voice
+• Rigor of a novice, a monk or a hermit
+• A testament to yourself, sealed until the vow is kept
+• A wax seal with an illuminated initial — hold the wax until it sets
+
+🪜 THE LADDER OF RELEASE
+Breaking a vow is allowed, but first you climb down a ladder you built yourself:
+• The candle of waiting burns down, from 5 to 120 minutes
+• Your recorded voice, played to the end
+• A letter on why you're breaking it
+• Three questions, a ransom (30 squats, a walk outside), a witness, a tithe
+• Sleep on it: breaking is allowed only tomorrow, and in the morning the app asks again
+At any step you may still hold on. Broken anyway? An indulgence, penance, a crack in the seal, or the scroll burns.
+
+🕯 WHEN TEMPTATION COMES
+The candle button opens the night: a candle burns for ten minutes, the flame swells as you breathe in for four and out for six, your reason and your voice are there. Note how strong it is and what set it off. Every temptation held is a gold bead on your prayer rope.
+
+📿 EVERY DAY
+• The evening examen: kept, hard, or broken, in one tap
+• The morning rule: today's vows, with a warning on the hard days
+• A prayer rope of days and a vine that grows around the page
+
+📖 THE CHRONICLE
+• The reliquary of kept seals
+• The map of temptations: weekday by time of day, the usual triggers
+• Letters, tithes to settle and the book of hours
+
+ALSO
+• Seasons: Sober October, Dry January, Lent, the Nativity Fast, No-spend November
+• Lineage: a kept vow suggests its next step
+• The rule of three: no more than three vows at once
+• A candle widget for the home screen
+• English and Russian
+• Free and open source (MIT)
+• Works fully offline, no data collection
+
+Vigil is a tool for self-discipline, not medical treatment. If you are giving up alcohol or other substances you depend on, talk to a doctor first.

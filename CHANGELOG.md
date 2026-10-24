@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.1] - 2026-10-24
+
+- **Google Play**: each release now also carries a signed AAB, and the store listing, graphics and privacy policy are in the repository.
+- **Languages**: the Play install keeps both English and Russian, so switching the language in Settings works there too.
+
 ## [1.0.0] - 2026-10-18
 
 The first release of Vigil: vows sealed with wax.
