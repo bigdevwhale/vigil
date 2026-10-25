@@ -36,6 +36,7 @@ import app.vigil.ui.Go
 import app.vigil.ui.Language
 import app.vigil.ui.T
 import app.vigil.ui.VigilData
+import app.vigil.ui.components.CommunityLinks
 import app.vigil.ui.components.ConfirmDialog
 import app.vigil.ui.components.InfoRow
 import app.vigil.ui.components.SectionTitle
@@ -124,6 +125,8 @@ fun SettingsScreen(data: VigilData, go: Go) {
                 HorizontalDivider(color = U.c.line, modifier = Modifier.padding(vertical = 4.dp))
                 SwitchRow(stringResource(R.string.settings_three), g(stringResource(R.string.settings_three_hint)), s.ruleOfThree, { on -> set { it.copy(ruleOfThree = on) } })
             }
+
+            CommunityLinks()
 
             SectionTitle(stringResource(R.string.settings_about))
             UCard {
