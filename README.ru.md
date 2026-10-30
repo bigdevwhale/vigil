@@ -9,6 +9,7 @@
 *Приложение для аскез: без сахара, холодный душ, утро без телефона. Выбери срок, час начала и то, что встанет между тобой и нарушением. Бесплатно, без рекламы, без аккаунта, без сети.*
 
 [![Android CI](https://github.com/bigdevwhale/vigil/actions/workflows/android.yml/badge.svg)](https://github.com/bigdevwhale/vigil/actions/workflows/android.yml)
+[![Google Play](https://img.shields.io/badge/Google_Play-скачать-34A853?logo=googleplay&logoColor=white)](https://play.google.com/store/apps/details?id=app.vigil)
 [![Release](https://img.shields.io/github/v/release/bigdevwhale/vigil?color=A8322A&label=скачать&logo=android)](https://github.com/bigdevwhale/vigil/releases/latest)
 
 [English](README.md) · **Русский** · [Изменения](CHANGELOG.md)
@@ -66,6 +67,12 @@
 - **Правило трёх:** не больше трёх обетов сразу.
 - **Виджет-свеча** на главном экране.
 - **Летопись:** реликварий печатей, письма, десятины к уплате и часослов.
+
+## Скачать
+
+**[Скачать в Google Play](https://play.google.com/store/apps/details?id=app.vigil)**.
+
+Или возьми **Vigil.apk** в [последнем релизе](https://github.com/bigdevwhale/vigil/releases/latest) и открой на телефоне (разреши установку из браузера или файлового менеджера, когда Android спросит). Android 8.0 и новее.
 
 ## Приватность
 

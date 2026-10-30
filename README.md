@@ -9,6 +9,7 @@
 *An app for vows of abstinence and practice: no sugar, a cold shower, mornings without a phone. Choose how long, when it begins and what stands between you and breaking it. Free, no ads, no account, no network.*
 
 [![Android CI](https://github.com/bigdevwhale/vigil/actions/workflows/android.yml/badge.svg)](https://github.com/bigdevwhale/vigil/actions/workflows/android.yml)
+[![Google Play](https://img.shields.io/badge/Google_Play-get_it-34A853?logo=googleplay&logoColor=white)](https://play.google.com/store/apps/details?id=app.vigil)
 [![Release](https://img.shields.io/github/v/release/bigdevwhale/vigil?color=A8322A&label=download&logo=android)](https://github.com/bigdevwhale/vigil/releases/latest)
 ![Android 8.0+](https://img.shields.io/badge/Android-8.0%2B-2B1D14?logo=android&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-Jetpack%20Compose-7F52FF?logo=kotlin&logoColor=white)
@@ -70,6 +71,12 @@ The candle button in the middle of the bar opens the night: a candle burns for t
 - **The rule of three:** no more than three vows at once.
 - **The candle widget** on the home screen.
 - **The chronicle:** the reliquary of seals, letters, tithes to settle, and the book of hours.
+
+## Download
+
+**[Get it on Google Play](https://play.google.com/store/apps/details?id=app.vigil)**.
+
+Or get **Vigil.apk** from the [latest release](https://github.com/bigdevwhale/vigil/releases/latest) and open it on your phone (allow installing from your browser or file manager when asked). Android 8.0 or newer.
 
 ## Privacy
 
